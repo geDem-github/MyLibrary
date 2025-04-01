@@ -1,7 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-public struct MyLocationData: Sendable, Codable {
+import Vapor
+
+public struct MyLocationData: Content {
     public let latitude: Double
     public let longitude: Double
 
